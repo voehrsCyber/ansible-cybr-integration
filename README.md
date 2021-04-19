@@ -1,5 +1,9 @@
 # Ansible Cyberark Conjur Integration
 
+To start the whole integration I integrated the conjur collection from galaxy:
+```
+ansible-galaxy collection install cyberark.conjur
+```
 I created an inventory under /etc/ansible/hosts called appservers. 
 I also created a hostfactory by adding the following policy into conjur:
 ```
